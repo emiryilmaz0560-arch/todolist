@@ -22,3 +22,13 @@ The application was created using a vibe coding approach through natural languag
 ## Notes
 This project was completed in a single iteration without manual code writing.  
 It demonstrates the effectiveness of vibe coding tools for rapid prototyping and simple applications.
+## Run with Docker
+
+### Build Docker Image
+docker build -t todolist .
+
+### Run Docker Container
+docker run -p 5173:5173 todolist
+
+### Open in Browser
+http://localhost:5173
